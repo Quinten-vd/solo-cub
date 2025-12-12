@@ -10,7 +10,7 @@ header {
   background-color: #003366;
   color: white;
   padding: 10px;
-  text-aling: center;
+  text-align: center;
 }
 
 .site-header {
@@ -30,7 +30,7 @@ header {
 }
 
 .site-title {
-  margin: 00 10 px 0;
+  margin: 0 10 px 0 0;
   font-size: 1.8rem;
   color: white;
 }
@@ -39,9 +39,9 @@ header {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  dislay: flex;
+  display: flex;
   gap: 10px;
-  flax-wrap: wrap;
+  flex-wrap: wrap;
   justify-content: flex-start;
 }
 
