@@ -9,9 +9,28 @@
   <body data-title="Admin Login" data-logo="/solo-cup/img/logo.png">
     <div id="header-placeholder"></div>
     <p>Enkel admins kunnen op deze pagina inloggen om gecontroleerde vluchten in te geven in het classement.</p>
-    
+
+    <form id="login-form">
+      <label>
+        Gebruikersnaam
+        <input type="text" id="username" required>
+      </label>
+      
+      <label>
+        Wachtwoord
+        <input type="password" id="password" required>
+      </label>
+      
+      <button type="submit" class="button">Inloggen</button>
+      
+      <p id="login-error" style="color:red; display:none;">
+        Onjuiste login
+      </p>
+    </form>
+
     <div id="footer-placeholder"></div>
     <script src="/solo-cup/includes/header.js"></script>
     <script src="/solo-cup/includes/footer.js"></script>
+    <script src="/solo-cup/includes/login.js"></script>
   </body>
 </html>
