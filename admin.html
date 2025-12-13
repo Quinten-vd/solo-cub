@@ -12,5 +12,10 @@
     <div id="footer-placeholder"></div>
     <script src="/solo-cup/includes/header.js"></script>
     <script src="/solo-cup/includes/footer.js"></script>
+    <script>
+      if (sessionStorage.getItem("isAdmin") !== "true") {
+        window.location.href = "/solo-cup/login.html";
+      }
+    </script>
   </body>
 </html>
