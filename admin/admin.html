@@ -11,7 +11,7 @@
     // Check of admin ingelogd is
       if (sessionStorage.getItem("isAdmin") !== "true") {
       // Niet ingelogd → terug naar loginpagina
-        window.location.href = "/solo-cup/login.html";
+        window.location.href = "/solo-cup/admin/login.html";
       }
   </script>
     <div id="header-placeholder"></div>
@@ -20,13 +20,13 @@
     </header>
     
     <div id="footer-placeholder"></div>
-    <script src="/solo-cup/includes/header.js"></script>
+    <script src="/solo-cup/admin/includes/header.js"></script>
     <script src="/solo-cup/includes/footer.js"></script>
     <script>
       if (sessionStorage.getItem("isAdmin") !== "true") {
-        window.location.href = "/solo-cup/login.html";
+        window.location.href = "/solo-cup/admin/login.html";
       }
     </script>
-    <script src="/solo-cup/includes/logout.js"></script>
+    <script src="/solo-cup/admin/includes/logout.js"></script>
   </body>
 </html>
